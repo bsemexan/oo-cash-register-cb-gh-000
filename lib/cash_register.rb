@@ -1,5 +1,5 @@
 class CashRegister
-  attr_accessor :total, :new
+  attr_accessor :total
 
   def new
     self.total = 0

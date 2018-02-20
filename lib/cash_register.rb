@@ -5,6 +5,9 @@ class CashRegister
     @total = total
   end
 
+  def new
+    self.total
+
   def total
     self.total
   end

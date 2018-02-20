@@ -23,6 +23,7 @@ class CashRegister
     if @discount
       @total = (100 - discount) * total / 100
       "After the discount, the total comes to $#{@total}."
+    end
   end
 
   def items

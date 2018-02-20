@@ -21,7 +21,7 @@ class CashRegister
 
   def apply_discount
     if @discount
-      @total = (100 - discount) * total / 100
+      @total = (100 - @discount) * total / 100
       @total.to_i
       "After the discount, the total comes to $#{@total}."
     end

@@ -6,7 +6,7 @@ class CashRegister
   end
 
   def total
-    self.total
+    self
   end
 
   def add_item

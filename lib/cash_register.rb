@@ -9,5 +9,8 @@ class CashRegister
     self.total
   end
 
+  def add_item
+  end
+
 
 end

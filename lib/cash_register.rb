@@ -7,6 +7,7 @@ class CashRegister
 
   def new
     self.total
+  end
 
   def total
     self.total
